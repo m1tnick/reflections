@@ -1,0 +1,20 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+For me it helped a lot since I didn't need to look through all lines of code. By just showing the differences between files, I could easily find the differences and spot the type.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having access to the entire history would enable me to see the evolution of the changes and be able to go back to older versions where I know the code was working.
+
+What do you think are the pros and cons of manually choosing times to create a commit, like you do in Git, vs having versions automatically saved, like Google focs does?
+It  gives us the flexibilty of deciding when the logic we are adding is enough to perform a commit. Otherwise we could be commiting uncomplete code which then would clutter git with commits that would not help very much during diff.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while oters, like Google Docs, treat each file separately?
+Because files can be interrelated and making changes to one file may imply also changes in the others. For other situations, like normal documents, changes in one file are completely unrellated to others, and in this case it does not make sense  to commit them all.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log commands shows all the commits performed to a file so far, including the ID of the commit and also the date and who did it. Using the IDs of commits we can use git diff to see the differences between those two commits.
+
+How might using version control make you more confident to make changes that could break something?
+By being able to revert to a previous version of the code I know it was working,  I can easily test new things without being affraid of not being able to fix my errors.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try to create a project and make some commits and learn the res of Git functionalities. Hopefully after this class I can start using Git for my next Android project!

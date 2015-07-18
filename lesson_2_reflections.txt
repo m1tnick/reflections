@@ -2,4 +2,16 @@ What happens when you initialize a repositiry? Why do you need to do it?
 When we initialize a repository, git will create a new folder containing meta-data. This meta-data will have the information about the commits to be performed. We need it so that we can tell git that this current directory will be the repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-Staging area is where we add the files that are in current working directory that will be eventually added to the repository. It is useful because it allows us to select which files we want to add to the repository, and not all inside the working directory
+Staging area is where we add the files that are in current working directory that will be eventually added to the repository. It is useful because it allows us to select which files we want to add to the repository, and not all inside the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By just adding the changes for the files that were affected for that logical change to the staging area, I can commit exactly that logic change, even if I also changed other files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+With branches we can create new branches for the same project that will allow us to make changes that can be experimental while we still can work on the main branch and perform commits there. So, this way we can have like different versions of the project but with the same flexibility of commits.
+
+How do the diagrams help you visualize the branch structure?
+It allows us to see when the branches were created and who is their parents. This way we can easily see the development that was made for each branch and what code in other branches are present or not in the branch we are looking at.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It will result in the merge of the addings that were performed individually for each branch. It is represented in the diagram like that because it shows when the branch was created, the different paths that each one followed and finally the momment they were merged again on the same commit.

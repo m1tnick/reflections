@@ -15,3 +15,6 @@ It allows us to see when the branches were created and who is their parents. Thi
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 It will result in the merge of the addings that were performed individually for each branch. It is represented in the diagram like that because it shows when the branch was created, the different paths that each one followed and finally the momment they were merged again on the same commit.
+
+What are the pros and cons of Git's automatic merging vs. always merges manually?
+The pros are definitely saving the manual work of merging everything manually. The cons of course are that it can't decide everything and in this cases it must be manuall, however it would be asking to much to do everything automatically without breaking the code.

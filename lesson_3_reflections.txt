@@ -2,4 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 When I want to share my code with the public or when I work with other people and want them to have access to the latests changes that I added.
 
 What might you want to always pull changes manually rather than having Git automatically stay up-tp-date with your remote repository?
-To avoid sharing changes that I may have commited locally but are not ready to be shared with public or other collaborators. This way we can control when we share our commits. 
+To avoid sharing changes that I may have commited locally but are not ready to be shared with public or other collaborators. This way we can control when we share our commits.
+
+Describe the differences between forks, clones and branches. When would you use one instead of another?
+Forks are to be used within GitHub when we want to work or improve some project that we have not access to and want to create a new github project. Forks only work in GitHub and are a shorcut to clone, create a remote and push. Clones are used when we want just to clone a repository to our local machine, and branches are used when we want to continue to work on the same repository but on a different feature or making some experimental code.

@@ -9,3 +9,6 @@ Forks are to be used within GitHub when we want to work or improve some project 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 This way Git can tell us if the changes we made so far are ahead of the remote or even if they are also out-of-sync, meaning that someone also contributed or changed the code in the remote and that we need to merge it.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+There are other version control softwares, as discussed in Lesson 1. There is also the possibility of collaborating by texting/talking to others about changes that we are going to do to some files and vice-versa, thought everyone will go crazy afterwards and possibly a lot of bugs will arise. I don't see an harder point using Git when comparing with other methods, only easier points.

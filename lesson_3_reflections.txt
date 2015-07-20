@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
 When I want to share my code with the public or when I work with other people and want them to have access to the latests changes that I added.
+
+What might you want to always pull changes manually rather than having Git automatically stay up-tp-date with your remote repository?
+To avoid sharing changes that I may have commited locally but are not ready to be shared with public or other collaborators. This way we can control when we share our commits. 

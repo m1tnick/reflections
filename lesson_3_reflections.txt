@@ -12,3 +12,6 @@ This way Git can tell us if the changes we made so far are ahead of the remote o
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 There are other version control softwares, as discussed in Lesson 1. There is also the possibility of collaborating by texting/talking to others about changes that we are going to do to some files and vice-versa, thought everyone will go crazy afterwards and possibly a lot of bugs will arise. I don't see an harder point using Git when comparing with other methods, only easier points.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits each approach have?
+First, the benefits of working directly in master is that we won't have troubles merging branches and solving possible conflictes. However this may also mean we are not collaborating with anyone, or we can also be collaborating but not in the most effective way. Separate branches allows us to work with others, making our own code and share with them for their approval. We may have the burden of solving conflits during merges but we may also be working much more effectively.
